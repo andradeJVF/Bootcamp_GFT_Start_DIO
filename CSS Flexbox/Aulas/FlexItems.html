@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Display Flex</title>
+    <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+    <div>
+        <p>Flex-Grow: 0</p>
+        <div class="flex1">
+            <div class="item fg-0">A</div>
+            <div class="item fg-0">B</div>
+            <div class="item fg-0">C</div>
+            <div class="item fg-0">D</div>
+        </div>
+
+        <p>Flex-Grow: 1</p>
+        <div class="flex1">
+            <div class="item fg-1">A</div>
+            <div class="item fg-0">B</div>
+            <div class="item fg-1">C</div>
+            <div class="item fg-1">D</div>
+        </div>
+
+        <p>Flex-Grow: 2</p>
+        <div class="flex1">
+            <div class="item fg-2">A</div>
+            <div class="item fg-0">B</div>
+            <div class="item fg-1">C</div>
+            <div class="item fg-1">D</div>
+        </div>
+
+        <p>Flex-Grow: 3</p>
+        <div class="flex1">
+            <div class="item fg-3">A</div>
+            <div class="item fg-0">B</div>
+            <div class="item fg-1">C</div>
+            <div class="item fg-1">D</div>
+        </div>
+    </div>
+    <div class="div2">
+
+        <p>Flex-Basis: auto</p>
+        <div class="flex2">
+            <div class="item2 b-auto fg-1">A</div>
+            <div class="item2">B</div>
+            <div class="item2 b-auto fg-2">C</div>
+            <div class="item2">D</div>
+        </div>
+
+        <p>Flex-Basis: 0</p>
+        <div class="flex2">
+            <div class="item2 b-0 fg-1">AAAA</div>
+            <div class="item2 b-0 fg-1">BBBBB</div>
+            <div class="item2 b-0 fg-1">CCCCCCCCCCCC</div>
+            <div class="item2 b-0 fg-1">DDDDDDDDDDDDDD</div>
+        </div>
+
+        <p>Flex-Basis + width</p>
+        <div class="flex2">
+            <div class="item2 w-100 fg-2">A</div>
+            <div class="item2 w-100 fg-2">B</div>
+            <div class="item2 w-100 fg-2">C</div>
+            <div class="item2 w-100 fg-2">D</div>
+        </div>
+    </div>
+    <div class="div3">
+
+        <p>Flex-Shrink: 1</p>
+        <div class="flex3">
+            <div class="item3 s-1 fg-1">A</div>
+            <div class="item3 s-1 fg-1">B</div>
+            <div class="item3 s-1 fg-1">C</div>
+            <div class="item3 s-1 fg-1">D</div>
+            <div class="item3 s-1 fg-1">E</div>
+        </div>
+
+        <div class="flex3">
+            <div class="item3 s-1 fg-1">A</div>
+            <div class="item3 s-1 fg-1">BBBB BBBBB BBBBB BBB</div>
+            <div class="item3 s-1 fg-1">C</div>
+            <div class="item3 s-1 fg-1">D</div>
+            <div class="item3 s-1 fg-1">E</div>
+            <div class="item3 s-1 fg-1">F</div>
+        </div>
+
+        <p>Flex-Shrink: 0 + basis: 100px</p>
+        <div class="flex3">
+            <div class="item3 s-0 fg-1">A</div>
+            <div class="item3 s-0 fg-1">B BBBBB</div>
+            <div class="item3 s-0 fg-1">C</div>
+            <div class="item3 s-0 fg-1">D DDDD DDDD</div>
+            <div class="item3 s-0 fg-1">E</div>
+        </div>
+
+        <p>Flex-Shrink: 0 + basis: 100px</p>
+        <div class="flex3">
+            <div class="item3 s-0 fg-1">A</div>
+            <div class="item3 s-0 fg-1">B BBBBB</div>
+            <div class="item3 s-0 fg-1">C</div>
+            <div class="item3 s-0 fg-1">D DDDD DDDD</div>
+            <div class="item3 s-0 fg-1">E</div>
+        </div>
+
+        <p>Flex-Shrink: variado + basis: 100px</p>
+        <div class="flex3">
+            <div class="item3 s-1 fg-1">A</div>
+            <div class="item3 s-2 fg-1">B BBBBB</div>
+            <div class="item3 s-3 fg-1">C</div>
+            <div class="item3 s-2 fg-1">D</div>
+            <div class="item3 s-2 fg-1">E</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

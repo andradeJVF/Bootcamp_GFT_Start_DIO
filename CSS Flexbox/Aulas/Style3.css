@@ -1,0 +1,117 @@
+.flex {
+    display: flex;
+    border: 2px solid black;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.item {
+    background-color: crimson;
+    color: aquamarine;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex-1 {
+    flex: 1;
+    /* grow = 1, shrink = 1 e basis= 0 */
+}
+
+.large {
+    width: 200px;
+    /* min-width: 250px; */
+}
+
+.flex-2 {
+    flex: 2;
+    /* grow = 2, shrink = 1 e basis= 0 */
+}
+
+.div2 {
+    margin-top: 50px;
+}
+
+.flex2 {
+    display: flex;
+    max-width: 350px;
+    border: 2px solid #505050;
+    margin-bottom: 10px;
+}
+
+.item2 {
+    flex: 1;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.o-1 {
+    order: 1;
+}
+
+.o-2 {
+    order: 2;
+}
+
+.o-3 {
+    order: 3;
+}
+
+.o-4 {
+    order: 4;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.div3 {
+    margin-top: 50px;
+}
+
+.flex3 {
+    display: flex;
+    border: 2px solid #505050;
+    max-width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.flex-center{
+    align-items: center;
+}
+
+.item3 {
+    background-color: tan;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.baseline{
+    align-self: baseline;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
+.auto{
+    align-self: auto;
+}

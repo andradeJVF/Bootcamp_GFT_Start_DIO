@@ -1,0 +1,136 @@
+.primeiro {
+    padding-bottom: 400px;
+}
+
+.segundo {
+    padding-bottom: 100px;
+}
+
+.flex {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.item {
+    background-color: aqua;
+    margin: 5px;
+}
+
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex-item {
+    background: #505050;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.row-reverse li {
+    background-color: blueviolet;
+    flex-direction: row-reverse;
+}
+
+.column {
+    float: left;
+    flex-direction: column;
+}
+
+.column li {
+    background-color: yellowgreen;
+}
+
+.column-reverse {
+    float: right;
+    flex-direction: column-reverse;
+    padding-top: 60px;
+}
+
+.column-reverse li {
+    background-color: tomato;
+}
+
+.flex2 {
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.item2 {
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    margin: 10px;
+    line-height: 75px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.gray {
+    background-color: #505050;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex3 {
+    display: flex;
+    border: 1px solid #505050;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.item3 {
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.row-nowrap {
+    flex-flow: row nowrap;
+}
+
+.wrap{
+    flex-flow: row wrap;
+}
