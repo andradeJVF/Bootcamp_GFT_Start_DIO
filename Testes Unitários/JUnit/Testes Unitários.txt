@@ -1,0 +1,16 @@
+Testes Unitários
+
+- Também conhecido por testes de unidade; 
+- Testar uma aplicação na sua menor parte;
+
+Por que usar? 
+
+- Compreender o código fonte (deixar claro como funciona o código para que qualquer pessoa possa interpretá-lo);
+- Corrigir bugs (evidenciar e corrigir os erros sem gerar novos);
+- Refatorar código (aprimorar ou refazer o código sem que aconteça erros);
+- Entregar com segurança uma nova feature
+
+- Versão atual: JUnit5 (ainda é comum usar a versão 4)
+Módulos: Platform (executa os testes), Jupiter (armazena as implementações), VIntage (integração com as versões antigas)
+
+**AUTOMATIZAÇÃO DE TESTES** 

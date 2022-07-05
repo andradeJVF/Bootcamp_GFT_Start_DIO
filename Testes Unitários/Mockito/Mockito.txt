@@ -1,0 +1,5 @@
+O que é:
+
+- Biblioteca open source;
+- acelera o desenvolvimento de testes que envolve conexão com api ou bd;
+- mockar (
